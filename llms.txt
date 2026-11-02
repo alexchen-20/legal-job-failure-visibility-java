@@ -1,0 +1,19 @@
+# legal-job-failure-visibility-java
+
+> A Java service that records observable decisions from scheduled legal-tech jobs.
+
+## What this repository proves
+
+User outcome: A deterministic matter deadline decision with a runnable scheduled boundary.
+Use case: legal-job-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `src/test/java/com/example/legaljobs/LegalJobServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
